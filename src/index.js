@@ -3,8 +3,6 @@ function eval() {
     return;
 }
 
-const { sort } = require("semver");
-
 function expressionCalculator(expr) {
     // Check paired brackets
     (function() {
